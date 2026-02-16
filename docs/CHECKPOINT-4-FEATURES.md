@@ -39,9 +39,9 @@ cd ARCHITECT
 npm install
 
 cat > .env << 'EOF'
-VITE_SUPABASE_URL=https://jzigkbmrspqlqoteorvb.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp6aWdrYm1yc3BxbHFvdGVvcnZiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEwMjc3MDgsImV4cCI6MjA4NjYwMzcwOH0.nkvQF6Vm3329aHM-F4H7TJa_Rmq9zVrjG5FAXy-q95Y
-VITE_API_KEY=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
+VITE_SUPABASE_URL=your_supbase_url
+VITE_SUPABASE_ANON_KEY=eyour_anon_key
+VITE_API_KEY=sk-or-your-openrouter-key
 EOF
 
 npm run dev
