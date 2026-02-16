@@ -2,7 +2,7 @@
 
 **AI-powered code analysis tool.** Paste code, link a GitHub repo, or upload a folder — get instant quality scores, security analysis, and actionable improvement suggestions.
 
-**Live:** [architect.thealxlabs.com](https://architect.thealxlabs.com)
+**Live:** [archlabs.vercel.app](https://archlabs.vercel.app)
 
 ## How It Works
 
