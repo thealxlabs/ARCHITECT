@@ -1,0 +1,8 @@
+# ARCHITECT — https://architect.thealxlabs.com
+# Allow all search engines to crawl everything
+
+User-agent: *
+Allow: /
+
+# Point to sitemap
+Sitemap: https://architect.thealxlabs.com/sitemap.xml
