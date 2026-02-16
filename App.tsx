@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import HomePage from './pages/HomePage';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
@@ -142,6 +143,7 @@ const App: React.FC = () => {
           {/* 404 catch-all — must be last */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Analytics />
       </BrowserRouter>
     </ErrorBoundary>
   );
